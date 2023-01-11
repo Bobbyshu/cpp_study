@@ -1,12 +1,11 @@
 #include <iostream>
 
-//#define Day 7
+#define Day 7
 #include "swap.h"
-using namespace std;
 
-//int main() {
-    /*
-    Day = 14;
+int test() {
+    using namespace std;
+//    Day = 14;
     cout << "one week has " << Day << " days in total" << endl;
     const int month = 12;
     int a = 10;
@@ -28,7 +27,6 @@ using namespace std;
     cout << arr[2] << endl;
     cout << arr[3] << endl;
     cout << arr[4] << endl;
-    */
 //    int arr[] = {4, 2, 8, 0, 5, 7, 1, 3, 9};
 //    for (int i = 0; i < 9 - 1; ++i) {
 //        for (int j = 0; j < 9 - i - 1; ++j) {
@@ -45,3 +43,4 @@ using namespace std;
 //    swap(10, 10);
 //    return 0;
 //}
+}
