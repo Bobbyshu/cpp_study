@@ -42,7 +42,7 @@ void solve() {
         cout << -1 << endl;
     }
 }
-
+/*
 int main() {
 
     int time;
@@ -52,3 +52,4 @@ int main() {
     }
     return 0;
 }
+ */

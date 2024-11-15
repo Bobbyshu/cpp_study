@@ -91,6 +91,12 @@ build CMakeFiles/cpp_hello.dir/unordered_map.cpp.obj: CXX_COMPILER__cpp_hello_De
   OBJECT_DIR = CMakeFiles\cpp_hello.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp_hello.dir
 
+build CMakeFiles/cpp_hello.dir/vector.cpp.obj: CXX_COMPILER__cpp_hello_Debug C$:/Users/18573/CLionProjects/cpp_hello/vector.cpp || cmake_object_order_depends_target_cpp_hello
+  DEP_FILE = CMakeFiles\cpp_hello.dir\vector.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp_hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp_hello.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_hello
@@ -99,7 +105,7 @@ build CMakeFiles/cpp_hello.dir/unordered_map.cpp.obj: CXX_COMPILER__cpp_hello_De
 #############################################
 # Link the executable cpp_hello.exe
 
-build cpp_hello.exe: CXX_EXECUTABLE_LINKER__cpp_hello_Debug CMakeFiles/cpp_hello.dir/bubble.cpp.obj CMakeFiles/cpp_hello.dir/swap.cpp.obj CMakeFiles/cpp_hello.dir/pointer.cpp.obj CMakeFiles/cpp_hello.dir/functionPointer.cpp.obj CMakeFiles/cpp_hello.dir/struct.cpp.obj CMakeFiles/cpp_hello.dir/ManagementSystem.cpp.obj CMakeFiles/cpp_hello.dir/unordered_map.cpp.obj
+build cpp_hello.exe: CXX_EXECUTABLE_LINKER__cpp_hello_Debug CMakeFiles/cpp_hello.dir/bubble.cpp.obj CMakeFiles/cpp_hello.dir/swap.cpp.obj CMakeFiles/cpp_hello.dir/pointer.cpp.obj CMakeFiles/cpp_hello.dir/functionPointer.cpp.obj CMakeFiles/cpp_hello.dir/struct.cpp.obj CMakeFiles/cpp_hello.dir/ManagementSystem.cpp.obj CMakeFiles/cpp_hello.dir/unordered_map.cpp.obj CMakeFiles/cpp_hello.dir/vector.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp_hello.dir
